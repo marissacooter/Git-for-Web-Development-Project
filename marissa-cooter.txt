@@ -1,48 +1,88 @@
 https://codepen.io/isssa/pen/YzXXoJb?editors=1100
 
  1. What is Semantic HTML? 
+    - Semantic HTML adds meaning to your code in a readable way. 
     2. What is HTML used for? 
+        - HTML is used to create the content of web pages.
     3. What is an attribute and where do we put it? 
+        - An attribute is used to define additional properties of an element.
     4. What is the h1 tag used for? How many times should I use it on a page?
+        - h1 is used to denote the most important line on the page, such as a title. It should only be used once.
     5. Name two tags that have required attributes
+        - An A tag or anchor tag is used for links. They require href to post the specific url.
     6. What do we put in the head of our HTML document? 
+        - We use the head of our HTML document to store information relating to the document.
     7. What is an id? 
+        - An id is used for specificity on an HTML element.
     8. What elements can I add an id to? 
+        - Using id's on elements helps when styling or targeting a specific element so they should only be used when neccessary.
     9. How many times can I use the same id on a page? 
+        Once. Element id's should be unique through out the entire document.
     10. What is a class? 
+        A class is an attribute that can be assigned to an element for the use of specificity.
     11. What elements can I add a class to? 
+        -You can add a class to any element or group of elements that you want to apply the same style to.
     12. How many times can I use the same class on a page? 
+        -You can use as many classes as you'd like, every element with the same class will get the same style.
     13. How do I get my link to open in a new tab?
+            - Target "_blank".
     14. What is the alt attribute used for? 
+        -The alt attribute provides alternate text for an image that may appear as broken to describe what the image is.
     15. How do I reference an id?
+        - You use "#id" to reference.
     16. What is the difference between a section and a div
+        - A section is semantic and a div is non-semantic as it does not provide meaning to your code.
     17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
+        - CSS is used to style your web pages.
+    18. How do we select an element? Example - every h2 on the page
+        - Simply targeting "h2" will select every h2 on the page and apply whatever it is you are stlying.
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        - The difference between a class and an id is an id is specifc to one element as a class can be applied to several elements on a page. An id can be used when you want to target one element to style but not apply that style to anything else on the page. Using a class, you can style several things on a page.
     20. How do we select classes in CSS?
+        - "." is the class selector used in CSS.
     21. How do we select a p element with a single class of “human””?
+        - We would select the element by targeting .human p
     22. What is a parent child selector? When would this be useful? 
+        - A parent child selector matches elements that are direct children of their parent element, or the elements that they are nested inside.
     23. How do you select all links within a div with the class of sidebar?
+        -
     24. What is a pseudo selector?
+        - A pseudo selector selects elements that are in a specific state, such as being hovered over.
     25. What do we use the change the spacing between lines?
+        - We are able to style the spacing between lines in CSS using "line-height".
     26. What do we use to change the spacing between letters?
+        - We would use "letter-spacing".
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        - We would use "text-transform" :lowercase, capitalize, etc.
     28. How do I add a 1px border around my div that is dotted and black?
+        - You would specify, "border: 1px; dotted black".
     29. How do I select everything on the page? 
+        - You would use the universal selector, "*".
     30. How do I write a comment in CSS?
+        - "/*" is used to comment out in CSS.
     31. How do I find out what file I am in, when I am using the command line? 
+        - PWD will tell you where you are currently located in the terminal.
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        - ls is used to show you the directories currently available to the file you are in.
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        - Use rm to remove a file. You must be careful with this as there is no warning message priot to deletion and it is irreversible.
     34. Why should I use version control? 
+        - Version control helps teams collaborate to find solutions by allowing the idividual to work on the whole of the project without affecting the others versions.
     35. How often should I commit to github?
+        - Every time you finish a step.
     36. What is the command we would use to push our repo up to github? 
+        - We would use git push.
     37. Walk me through Lambda's git flow. 
+        - Lambda's git flow is fork, clone, cd to the directory, git status, git add ., git commit -m "comment", git -b branchname, git push -u origin branchname
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        - Block elements create a line break while inline elements do not.
     2. What happens when an element is positioned absolutely? 
+        -The elements position is fixed.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        - You would create a div to take up the remaining width.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the fix for the box model? 
 
